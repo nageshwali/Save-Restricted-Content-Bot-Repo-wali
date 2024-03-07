@@ -1,3 +1,9 @@
+from pyrogram import Client
+
+from telethon.sessions import StringSession
+from telethon.sync import TelegramClient
+
+
 import logging
 from decouple import config
 import sys
